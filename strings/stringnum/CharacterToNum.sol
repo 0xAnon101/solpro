@@ -1,14 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-
 /// @title CharacterToNum
 /// @notice This contract converts a string of characters representing a number into its numerical value.
 /// @dev This contract uses ASCII values to calculate the numerical value of the characters.
 contract CharacterToNum {
 
     error NotANumber(uint8 _number);
-
 
     /// @notice Parses a string of characters representing a number and returns its numerical value.
     /// @dev This function uses ASCII values to calculate the numerical value of the characters.
