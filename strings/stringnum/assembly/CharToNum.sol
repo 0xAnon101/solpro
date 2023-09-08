@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-/// @title NumToCharacter
-/// @notice This contract converts a number into its corresponding string representation.
+/// @title CharToNumber
+/// @notice This contract converts a string of characters representing a number into its numerical value.
+/// @dev This contract uses ASCII values to calculate the numerical value of the characters.
 contract CharToNumber {
 
 
